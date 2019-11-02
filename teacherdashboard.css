@@ -1,0 +1,166 @@
+/* line no 10*/
+#head  
+{
+	margin-left: 50px;
+  color: black;
+  font-family: rubik, sans-serif;
+  font-size: 140px;
+  text-shadow: 200px, 100px, black;
+   margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+/* line no 17*/
+#body
+{
+	background-color: lightblue;
+}
+
+/* line no 22*/
+#date1
+{
+	margin-top: 20px;
+	font-size: 20px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	font-family: rubik, sans-serif;
+
+}
+
+
+/* line no 23*/
+#dateselect
+{
+	margin-top: 10px;
+	font-size: 15px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	font-family: rubik, red serif;
+
+}
+
+
+/* line no 26*/
+#tablemod
+		{
+
+			width: 100%;
+		}
+	
+#tablemod th
+		{
+			 background-color: #4CAF50;
+  			color: white;
+  			padding: 10px;
+  			font-family: rubik, serif;
+
+		}
+
+#tablemod tr: nth-child(even) {background-color:hsla(120,100%,50%,0.3);}
+
+#tablemod td
+		{
+			padding: 10px;
+			border: 1px solid #ddd;
+			font-size: 20px;
+		}
+
+/*line no 36*/
+
+
+/*line no */
+
+.selectfrom
+{
+	background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.SELECT
+{
+	position: relative;
+	display: inline-block;
+}
+
+
+
+
+.selectcontent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.selectcontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.selectcontent a:hover {background-color: #f1f1f1}
+
+.SELECT:hover .selectcontent {
+  display: block;
+}
+
+.SELECT:hover .select {
+  background-color: #3e8e41;
+  }
+
+
+/* line no 41*/
+#submitbutton
+{
+   margin-top: 20px;
+   background-color: #4CAF50; /* Green */
+   border: none;
+   color: white;
+   text-align: center;
+   text-decoration: underline;
+   display: inline-block;
+   padding: 16px;
+   font-size: 16px;
+   float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+<select>
+  							<option value="Present">Present</option>
+  							<option value="Absent">Absent</option>
+  						</select>
