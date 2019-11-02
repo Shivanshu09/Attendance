@@ -1,94 +1,80 @@
 /* line no 10*/
-#head  
-{
-	margin-left: 50px;
-  color: black;
-  font-family: rubik, sans-serif;
-  font-size: 140px;
-  text-shadow: 200px, 100px, black;
-   margin-top: 0px;
+#head {
+    margin-left: 50px;
+    color: black;
+    font-family: rubik, sans-serif;
+    font-size: 140px;
+    text-shadow: 200px, 100px, black;
+    margin-top: 0px;
     margin-bottom: 0px;
-    
 }
 
 /* line no 17*/
-#body
-{
-	background-color: lightblue;
+#body {
+    background-color: lightblue;
 }
 
 /* line no 22*/
-#date1
-{
-	margin-top: 20px;
-	font-size: 20px;
-	margin-left: 50px;
-	margin-bottom: 20px;
-	font-family: rubik, sans-serif;
-
+#date1 {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-family: rubik, sans-serif;
 }
-
 
 /* line no 23*/
-#dateselect
-{
-	margin-top: 10px;
-	font-size: 15px;
-	margin-left: 50px;
-	margin-bottom: 20px;
-	font-family: rubik, red serif;
-
+#dateselect {
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-family: rubik, red serif;
 }
-
 
 /* line no 26*/
-#tablemod
-		{
+#tablemod {
+    width: 100%;
+}
 
-			width: 100%;
-		}
-	
-#tablemod th
-		{
-			 background-color: #4CAF50;
-  			color: white;
-  			padding: 10px;
-  			font-family: rubik, serif;
+#tablemod th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-family: rubik, serif;
+}
 
-		}
+#tablemod tr: nth-child(even) {
+    background-color: hsla(120,100%,50%,0.3);
+}
 
-#tablemod tr: nth-child(even) {background-color:hsla(120,100%,50%,0.3);}
-
-#tablemod td
-		{
-			padding: 10px;
-			border: 1px solid #ddd;
-			font-size: 20px;
-		}
+#tablemod td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 20px;
+}
 
 /*line no 36*/
-
-
 /*line no */
-
-.selectfrom
-{
-	background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+.selectfrom {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
-.SELECT
-{
-	position: relative;
-	display: inline-block;
+.SELECT {
+    position: relative;
+    display: inline-block;
 }
 
+.selectcontent select {
+    font-size: 0.8em;
+}
 
-
+/* 
 
 .selectcontent {
   display: none;
@@ -115,52 +101,25 @@
 .SELECT:hover .select {
   background-color: #3e8e41;
   }
-
-
+ */
 /* line no 41*/
-#submitbutton
-{
-   margin-top: 20px;
-   background-color: #4CAF50; /* Green */
-   border: none;
-   color: white;
-   text-align: center;
-   text-decoration: underline;
-   display: inline-block;
-   padding: 16px;
-   font-size: 16px;
-   float: right;
+#submitbutton {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    padding: 16px;
+    font-size: 16px;
+    float: right;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
 <select>
   							<option value="Present">Present</option>
   							<option value="Absent">Absent</option>
   						</select>
+
