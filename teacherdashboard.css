@@ -56,6 +56,7 @@
 
 /*line no 36*/
 /*line no */
+/*
 .selectfrom {
     background-color: #4CAF50;
     color: white;
@@ -73,8 +74,8 @@
 .selectcontent select {
     font-size: 0.8em;
 }
-
-/* 
+*/
+/
 
 .selectcontent {
   display: none;
@@ -101,12 +102,10 @@
 .SELECT:hover .select {
   background-color: #3e8e41;
   }
- */
-/* line no 41*/
+ s/* line no 41*/
 #submitbutton {
     margin-top: 20px;
     background-color: #4CAF50;
-    /* Green */
     border: none;
     color: white;
     text-align: center;
